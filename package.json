@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview --port 5050",
+    "lint": "eslint --fix src/"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "element-plus": "^1.1.0-beta.20",
+    "js-cookie": "^3.0.1",
+    "vue": "^3.2.20",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^1.6.2",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.19.1",
+    "prettier": "^2.4.1",
+    "vite": "^2.6.7"
+  }
+}
